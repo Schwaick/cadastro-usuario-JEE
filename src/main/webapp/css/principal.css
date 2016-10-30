@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+*{margin: 0;padding: 0;}
+html, body {height:100%;}
+#tudo{width:1024px;margin: 0 auto;min-height:95%;
+   position:relative;}
+#cabecalho{width:1024px;height: 100px;margin-bottom: 5px;background-image: linear-gradient(to top, white, gray, black);text-align: center;line-height:100px;}
+#menu{width:250px;border: 2px solid #CDC9C9;box-shadow: 5px 5px 5px #E6E6FA;height: 425px;float: left;margin-bottom: 5px;text-align: center;}
+#menu ul{list-style: none;}
+#menu ul li{width:250px;height:30px;line-height:30px;background-image: linear-gradient(to bottom, #FF4500, #FF8C00 49%, #FFA500 50%, #FFD700);border-top: 1px solid black;}
+#menu ul li a{text-decoration: none;display:block;color: white;}
+#menu ul li a:hover{background-color: #FFB90F;}
+.last-li{border-bottom: 1px solid black;}
+#conteudo{width:750px;border: 2px solid #CDC9C9;box-shadow: 2px 2px 2px #E6E6FA;height: 415px;float: right;margin-bottom: 5px;padding: 5px;}
+#rodape{width:1024px;height: 100px;clear:both;background-image: linear-gradient(to bottom, white, gray, black);text-align: center;line-height:100px;}
+#mensagem{width:300px;background-color:#c9c9c9;border: 2px solid white;border-radius: 25px;}
